@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo STATUS is $MYBSTATUS
+echo STATUS is x${MYBSTATUS}x
 
 for (( c=1; c<=5; c++ ))
 do  
