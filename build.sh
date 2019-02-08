@@ -1,4 +1,7 @@
 #!/bin/bash
+
+echo STATUS is $MYBSTATUS
+
 for (( c=1; c<=5; c++ ))
 do  
    echo "$c - Welcome $name to release $BUILD_NUMBER of the Jenkins class"
